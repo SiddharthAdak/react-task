@@ -1,0 +1,47 @@
+.form-container{
+    background-color: white;
+    max-width: 600px;
+    height: max-content;
+    min-height: calc(100vh - 70px);
+    padding: 20px;
+    margin: auto;
+    
+    /* overflow: scroll; */
+}
+form{
+    margin-top: 20px;
+}
+form label{
+    display: block;
+}
+form div{
+    margin-bottom: 10px;
+}
+form input{
+    width: 100%;
+    padding: 8px 5px;
+    border-radius: 5px;
+}
+input:focus{
+    border: 0px;
+    outline: 2px solid var(--primary);
+}
+button{
+    padding: 8px 15px;
+    margin: 5px 0px;
+    color: white;
+    background-color: var(--primary);
+    border: 0px;
+    border-radius: 10px;
+    transition: all 0.1s ease-in;
+    border: 2px solid var(--primary);
+    cursor: pointer;
+}
+button:hover{
+    color: var(--primary);
+    background-color: white;
+}
+.error{
+    color: var(--primary);
+    font-size: 15px;
+}

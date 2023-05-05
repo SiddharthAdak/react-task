@@ -1,0 +1,28 @@
+.navbar{
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px 0px gray;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;  
+}
+.navbar h1{
+    color: var(--primary);
+    cursor: pointer;
+    /* letter-spacing: 1px; */
+    
+}
+.navbar a{
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.navbar a:hover{
+    color: var(--primary);
+}

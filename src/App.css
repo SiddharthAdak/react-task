@@ -1,0 +1,9 @@
+.app{
+  margin-top: 70px;
+}
+.app-container{
+  background-color: rgb(238, 238, 238);
+  width: 100vw;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+}
